@@ -1,0 +1,20 @@
+.carousel-caption{
+    bottom: 15.25rem;
+}
+.carousel-caption h1{
+    font-size: 60px;
+    padding: 30px 0px;
+}
+.carousel-caption p{
+    font-size: 18px;
+}
+.carousel-caption:after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(to right, #B4903A, #957122, #FFE5A6, #D5B67A);
+    left: 50%;
+    top: 140px;
+    transform: translate(-50%, -50%);
+}

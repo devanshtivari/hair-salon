@@ -1,0 +1,48 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+}
+.contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url(/Kendall-HairSaloon/home2-parallax-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+    color: whitesmoke;
+}
+.contact img{
+    height: 450px;
+    width: 500px;
+    margin: 0px; 
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to right, #B4903A, #957122, #D5B67A); 
+}
+.form-control{
+    border-radius: 3px;
+    padding: 0.4rem;
+    backdrop-filter: blur("10px");
+
+}
+.contact-txt button{
+    color: whitesmoke;
+    background: linear-gradient(to right, #B4903A, #957122, #D5B67A);
+    padding: 10px 25px;
+    font-size: 18px;
+    animation: animate linear 2s infinite;
+    cursor: pointer;
+    border-radius: 3px;
+}
+@keyframes animate {
+    50%{
+        opacity: 0.5;
+    }
+}
+

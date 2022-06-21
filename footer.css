@@ -1,0 +1,62 @@
+.abt img{
+    height: 50px;
+    width: 250px;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+.footer{
+    background: url(/Kendall-HairSaloon/footer-img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+}
+.abt-txt{
+    color: whitesmoke;
+    padding: 25px 0px;
+}
+.cnt{
+    color: whitesmoke;
+    padding: 35px 0px;
+}
+.cnt p{
+    padding-top: 15px;
+}
+.cnt i{
+    color: #ffbf00;
+}
+.cnt i:hover{
+    color: whitesmoke;
+}
+.cnt a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.news ul{
+    list-style-type: none;
+    padding: 5px 0px;
+}
+.news ul li h6{
+    color: whitesmoke;
+}
+.news ul li p{
+    color: rgb(199, 199, 199);
+}
+.news ul li h6:hover{
+    color: #ffbf00;
+    cursor: pointer;
+}
+.news h3{
+    color: whitesmoke;
+    padding: 35px 0px;
+}
+.cnt ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+.cnt ul li{
+    padding: 10px;
+}

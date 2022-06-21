@@ -1,0 +1,32 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+.accessory{
+    background: url(/Kendall-HairSaloon/home2-parallax-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px;
+    
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #B4903A, #957122, #D5B67A);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.accessory .txt{
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px 0px;
+}
+.accessory i{
+    color: whitesmoke;
+    font-size: 30px;
+}

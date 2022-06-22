@@ -1,0 +1,59 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+.about2{
+    background: url(/Kendall-HairSaloon/h2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 150px 0px;
+    
+}
+.about2-txt{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.about2 button{
+    color: whitesmoke;
+    background: linear-gradient(to right, #B4903A, #957122, #D5B67A);
+    padding: 15px 30px;
+    margin: 15px 0px;
+    font-size: 18px;
+    animation: animate linear 2s infinite;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: transparent;
+}
+@keyframes animate {
+    50%{
+        opacity: 0.5;
+    }
+}
+
+.about2 button:hover{
+    color: black;
+    background: transparent;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to right, #B4903A, #957122, #D5B67A);
+}
+.about2-txt h1{
+    padding: 10px 0px;
+}
+.about-txt p{
+    color: black;
+    padding: 10px 0px;
+}
+.about2-txt:after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(to right, #B4903A, #957122, #FFE5A6, #D5B67A);
+    left: 50%;
+    top: 220px;
+    transform: translate(-50%, -50%);
+}

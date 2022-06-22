@@ -1,0 +1,48 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+.service{
+    width: 100%;
+    padding: 100px 0px;
+}
+.service-txt{
+    text-align: right;
+    
+}
+.service button{
+    color: whitesmoke;
+    background: linear-gradient(to right, #B4903A, #957122, #D5B67A);
+    padding: 15px 30px;
+    margin: 15px 0px;
+    font-size: 18px;
+    animation: animate linear 2s infinite;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: transparent;
+}
+@keyframes animate {
+    50%{
+        opacity: 0.5;
+    }
+}
+
+.service button:hover{
+    color: black;
+    background: transparent;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to right, #B4903A, #957122, #D5B67A);
+}
+.service-txt h1{
+    padding: 10px 0px;
+}
+.service-txt p{
+    color: gray;
+    padding: 10px 0px;
+}
+.service-img{
+    height: 350px;
+    width: 650px;
+}

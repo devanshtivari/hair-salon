@@ -1,0 +1,43 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+.newsletter{
+    padding: 150px;
+}
+.newsletter-img img{
+    height: 250px;
+    width: 275px;
+    
+}
+.carousel-div{
+    height: 500px;
+    width: 250px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    cursor: pointer;
+}
+.carousel-div h3:hover{
+    color: #ffbf00;
+}
+.date{
+    color: #ffbf00;
+}
+
+.cmt:hover{
+    color: #ffbf00;
+}
+.mt-md-5{
+    margin-top: 7rem !important;
+}
+.carousel-indicators button{
+    background-color: #ffbf00 !important;
+}
+.carousel-indicators{
+    bottom: -50px !important;
+}
